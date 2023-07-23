@@ -14,8 +14,8 @@ RUN apk add --update --no-cache \
     py3-pip \
     poppler-utils
 
-RUN ln -s /usr/bin/python3 /usr/bin/python
-RUN git clone --depth=1 https://github.com/tbnobody/brother_ql_web.git
+
+COPY . /brother_ql_web/
 
 WORKDIR /brother_ql_web
 
