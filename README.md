@@ -9,6 +9,12 @@ You need Python 3 for this software to work.
 The web interface is [responsive](https://en.wikipedia.org/wiki/Responsive_web_design).
 There's also a screenshot showing [how it looks on a smartphone](./screenshots/Label-Designer_Phone.png)
 
+## This fork
+
+This fork is one of many that adds QR code support and a Dockerfile.
+
+It also has a Github action on push to build and publish the container image to ghcr.
+
 ### Additional Features
 * Print text as QR Code
     * Add text to QR Code
